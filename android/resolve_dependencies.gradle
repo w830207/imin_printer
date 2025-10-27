@@ -28,8 +28,7 @@ repositories {
 File flutterRoot = projectDir.parentFile.parentFile.parentFile
 
 // assert flutterRoot.isDirectory() //断言报错
-String engineVersion = Paths.get(flutterRootPath, "bin", "internal", "engine.version")
-        .toFile().text.trim()
+String engineVersion = "897caefe14b94e350bcafbba1831692d946f338d"
 
 configurations {
     flutterRelease.extendsFrom releaseImplementation
