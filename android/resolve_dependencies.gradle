@@ -17,13 +17,11 @@ if (flutterRootPath == null) {
     throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
 }
 
-String storageUrl = System.getenv('FLUTTER_STORAGE_BASE_URL') ?: "https://storage.googleapis.com"
-
 repositories {
     google()
     mavenCentral()
     maven {
-        url "$storageUrl/download.shorebird.dev"
+        url "https://download.shorebird.dev"
     }
 }
 
