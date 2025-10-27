@@ -23,7 +23,7 @@ repositories {
     google()
     mavenCentral()
     maven {
-        url "$storageUrl/download.flutter.io"
+        url "$storageUrl/download.shorebird.dev"
     }
 }
 
