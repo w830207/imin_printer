@@ -1,5 +1,5 @@
 # imin_printer
-
+for shorebird
 It is used to print text, pictures, two-dimensional code, bar code and other functions sdk in imin printer using Android system
 
 
